@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+*{
+    font-family:Poppins;
+}
+#nav-edit{
+    margin-right:auto;
+}
+.img-edit{
+   height:70vh; 
+   width: 35vw;
+}
+
+.pt2card {
+    background-color: white;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    text-align: center;
+    border-color: #e5eaf4;
+}
+.pthtbg {
+    background-color: #f9fbfe;
+}
+#ft-edit{
+    font-size:20px;
+}
+.bd-edit{
+   overflow: hidden;
+}
+.p-edit{
+    font-size :18px;    
+    color:#2e3032;
+}
+.reti-edit{
+ 
+    height: 10vh;
+}
+.img-editr1{
+    height:30vh;
+}
+.img-editr2{
+    height:34vh;
+}
+.img-editr3{
+    height:30vh;
+}
+.img-editr4{
+    height:33vh;
+}
+.full{
+    height:50vh;
+}
+@media screen and (max-width:320px){
+    .img-edit{
+        height:15vh;
+
+    }
+    .full{
+        height:15vh;
+    }
+}
+@media screen and (min-width:430px){
+    .img-edit{
+        height:40vh;
+
+    }
+    .full{
+        height:18vh;
+    }
+}
+@media screen and (max-width:480px){
+    .img-edit{
+        height:20vh;
+
+    }
+}
+
+@media screen and (min-width:600px){
+    .img-edit{
+        height:30vh;
+
+    }
+    .full{
+        height:30vh;
+    }
+}
+@media screen and (min-width:700px){
+    .img-edit{
+        height:70vh; 
+        width: 35vw;
+     
+
+    }
+    .full{
+        height:40vh;
+    }
+}
+@media screen and (min-width:900px){
+    .img-edit{
+        height:70vh; 
+        width: 35vw;
+     
+
+    }
+    .full{
+        height:50vh;
+    }
+}
